@@ -1,0 +1,1 @@
+export const INSERT_LIST = 'INSERT_LIST'

@@ -1,0 +1,33 @@
+/* sx={{ height: "260px", width: "450px", borderRadius: "10px" }} */
+
+.container {
+    height: 282px;
+    width: 492px;
+    background-color: rgb(186, 186, 186);
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.item-small-container:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.playBtnAndDOts{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    top: 135px
+}
+
+.textOvers{
+    text-decoration: underline;
+}
